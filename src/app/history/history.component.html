@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let query of history; let i = index">
+      <span>{{query}}</span>
+      <button (click)="clearHistory(i)">X</button>
+    </li>
+  </ul>

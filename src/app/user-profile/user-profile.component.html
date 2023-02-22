@@ -1,0 +1,5 @@
+<div *ngIf="userProfile">
+        <h2>{{userProfile.login}}</h2>
+        <img [src]="userProfile.avatar_url" [alt]="userProfile.login">
+        <p>{{userProfile.bio}}</p>
+      </div>
